@@ -1,0 +1,135 @@
+body{
+    animation-name:ani;
+    animation-duration: 5s;
+    animation-iteration-count:1;
+    background-image: url(flag2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+    animation-name:ani;
+    animation-duration: 10s;
+    animation-iteration-count:1;
+}
+@keyframes ani{
+    from{opacity:0.1;}to{opacity:1;};
+}
+header{
+    background: linear-gradient(orange, white, green);
+    text-align: center;
+    font-size: 50px;
+    position: fixed;
+    background-size: cover;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+footer{
+    background: linear-gradient(orange, white, green);;
+    font-size: 50px;
+    position: fixed;
+    background-size: cover;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+#a{
+    height: 550px;
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 0px;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: rgb(216, 236, 255);
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+#q{
+    height: 550px;
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 0px;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: rgb(216, 236, 255);
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+#c{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    height: 280px;
+    width: 470px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0px 0px 0px 0px;
+    margin-right: 0px;
+}
+#b{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    text-decoration: underline;
+    margin-right: 0px;
+}
+#d{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+
+button{
+    text-align: center;
+    margin-left: 40%;
+    border-radius: 10px 10px 10px 10px;
+    border: solid black;
+}
+#text{
+    color: red;
+    text-decoration: none;
+}
+#box{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 550px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: rgb(216, 236, 255);
+    float: right;
+    padding: 0px 0px 0px 0px;
+}
+#n{
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#audio{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 800px;
+    border-radius: 27px 27px 27px 27px;
+    border: solid rgb(255, 170, 0);
+    box-shadow: 5px 5px 5px 5px ;
+    padding: 0px 0px 0px 0px;
+}
+.x{
+    color: rgb(223, 161, 130);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+}
